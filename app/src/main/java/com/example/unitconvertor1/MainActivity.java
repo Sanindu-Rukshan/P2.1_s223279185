@@ -82,7 +82,7 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
         double convertedValue = 0.0;
         boolean isValidConversion = true;
 
-        // Perform the conversion based on the source and destination units
+        // Performing the conversion based on the source and destination units
         if (sourceUnit.equals("Inch")) {
             if (destinationUnit.equals("Centimeter")) {
                 convertedValue = inputValue * 2.54;
